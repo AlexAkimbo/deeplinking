@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+<!--     <link rel="stylesheet" href="style.css"> -->
+<!--     <script src="script.js"></script> -->
+  </head>
+  <body>
+
+			<section>
+				<h3>Try to get outside</h3>
+				<div class='grid'>
+					<a
+						href={
+							'https://www.businessinsider.com/the-founder-ceo-statsbomb-career-pivoting-in-sports-industry-2021-5'
+						}
+						target='_system'
+					>
+						Link 1
+					</a>
+					<button
+						onClick={() => {
+							window.open(
+								'https://www.businessinsider.com/the-founder-ceo-statsbomb-career-pivoting-in-sports-industry-2021-5',
+								'_system',
+								'location=yes'
+							)
+						}}
+						style={{ width: '50%' }}
+					>
+						Link 2
+					</button>
+					<a
+						href={`googlechrome://navigate?url=www.businessinsider.com/the-founder-ceo-statsbomb-career-pivoting-in-sports-industry-2021-5`}
+						target='_system'
+					>
+						Link 3
+					</a>
+					<a
+						href={`googlechrome://www.businessinsider.com/the-founder-ceo-statsbomb-career-pivoting-in-sports-industry-2021-5`}
+						target='_system'
+					>
+						Link 4
+					</a>
+					<a
+						href='intent://navigate?url=www.http.cat#Intent;scheme=;package=com.android.browser;S.browser_fallback_url=http%3A%2F%2Fhttp.cat;end'
+						target='_system'
+					>
+						Link 5
+					</a>
+				</div>
+			</section>
+
+    
+  </body>
+</html>
